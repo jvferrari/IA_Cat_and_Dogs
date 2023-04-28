@@ -2,12 +2,12 @@ from keras.models import load_model
 import numpy as np
 import cv2
 
-model = load_model('Model/Keras_model.h5')
+model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 cap = cv2.VideoCapture(0)
 
-classes = ['CALCULADORA','CONTROLE','LANPADA','FUNDO']
+classes = ['Gato','Cachorro','Não Pet']
 
 while True:
     success,img = cap.read()

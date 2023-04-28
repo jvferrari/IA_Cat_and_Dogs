@@ -1,4 +1,3 @@
-0 CALCULADORA
-1 CONTROLE
-2 LANPADA
-3 FUNDO
+0 Gato
+1 Cachorro
+2 Não Pet
